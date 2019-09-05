@@ -1,0 +1,14 @@
+#!/bin/bash
+echo which file ?
+
+read filename
+
+if [[ -e $filename ]]; then
+	echo "$filename exists"
+fi
+
+if [[ - $filename ]]; then
+	echo "$filename is "
+fiif [[ - $filename ]]; then
+        echo "$filename is "
+fi
