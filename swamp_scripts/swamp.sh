@@ -25,8 +25,8 @@ printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 echo "+----------------------------------------+"
 echo "|---------Swamp Automation Script--------|"
 echo "+----------------------------------------+"
-#ps auxw | grep gmod | grep 208.103.169.51
-ps auxw | grep gmod | grep 208.103.169.51 | grep -v grep > /dev/null
+#ps auxw | grep gmod | grep 208.103.169.72
+ps auxw | grep gmod | grep 208.103.169.72 | grep -v grep > /dev/null
 
 if [ $? != 0 ]
 then
