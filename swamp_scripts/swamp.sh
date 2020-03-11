@@ -35,6 +35,7 @@ then
         echo "|-----Connection lost, restarting...-----|"
         echo "+----------------------------------------+"
         sudo -u ech0 /usr/bin/steam %U -applaunch 4000 -dev -console +connect 208.103.169.72:27015 -windowed -w 1265 -h 716 -novid -high
+        #UBUNTU : /bin/sh -e /usr/games/steam -applaunch 4000 -dev -console +connect 208.103.169.72:27015 -windowed -w 1265 -h 716
 else
         printf "\n\n\n\n\n"
         echo    "+----------------------------------------+"
