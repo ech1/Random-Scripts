@@ -14,10 +14,9 @@ then
 else 
         echo "|----------Steam already started---------|"
         echo "+----------------------------------------+"
-        sleep 10
 fi
 
-
+chmod +x GModCEFCodecFix-Linux && ./GModCEFCodecFix-Linux & sleep 10
 
 while true
 do
@@ -26,7 +25,7 @@ echo "+----------------------------------------+"
 echo "|---------Swamp Automation Script--------|"
 echo "+----------------------------------------+"
 #ps auxw | grep gmod | grep 208.103.169.72
-ps auxw | grep gmod | grep 208.103.169.72 | grep -v grep > /dev/null
+ps auxw | grep gmod | grep 208.103.169.51 | grep -v grep > /dev/null
 
 if [ $? != 0 ]
 then
@@ -34,8 +33,7 @@ then
         echo "+----------------------------------------+"
         echo "|-----Connection lost, restarting...-----|"
         echo "+----------------------------------------+"
-        sudo -u ech0 /usr/bin/steam %U -applaunch 4000 -dev -console +connect 208.103.169.72:27015 -windowed -w 1265 -h 716 -novid -high
-        #UBUNTU : /bin/sh -e /usr/games/steam -applaunch 4000 -dev -console +connect 208.103.169.72:27015 -windowed -w 1265 -h 716
+        /bin/sh -e /usr/games/steam -applaunch 4000 -dev -console +connect 208.103.169.51:27015 -windowed -w 1265 -h 716 & sleep 10
 else
         printf "\n\n\n\n\n"
         echo    "+----------------------------------------+"
@@ -46,5 +44,3 @@ else
         sleep 1 ; netstat -alnp | grep p | grep gmod
         printf "+-------------------------------------------------------------------------------------------------+\n"
 fi
-sleep 10;
-done
