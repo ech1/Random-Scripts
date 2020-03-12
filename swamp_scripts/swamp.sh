@@ -17,7 +17,7 @@ else
 fi
 
 chmod +x GModCEFCodecFix-Linux && ./GModCEFCodecFix-Linux & sleep 10
-cpulimit --path=/home/ech0/.steam/steam/steamapps/common/GarrysMod/bin/linux64/gmod --limit=10 &
+
 while true
 do
 printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
@@ -41,7 +41,7 @@ else
         echo    "+----------------------------------------+"
         printf "\n\n\n\n\n"
         printf "+-------------------------------------------------------------------------------------------------+\n"
-        sleep 1 ; netstat -alnp | grep p | grep gmod
+        sleep 1 ; echo "cpulimit --path=/home/ech0/.steam/steam/steamapps/common/GarrysMod/bin/linux64/gmod --limit=10"
         printf "+-------------------------------------------------------------------------------------------------+\n"
 fi
 sleep 10;
