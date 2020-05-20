@@ -5,7 +5,7 @@ gpid=$(pidof gmod)
 echo pid of gmod: $gpid
 while true
 do
-
+whoami
 while [ "$(pidof gmod)" -ge 1 ] 2>/dev/null
 do
         echo "---------------------------------gmod running!-----------------------------------"
