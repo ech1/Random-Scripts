@@ -39,5 +39,6 @@ do
 done
 echo '-------------------------- gmod not running! 3 secs -----------------------------'
 sleep 3
-exec /usr/bin/steam -silent -no-browser -applaunch 4000 -windowed -safe -noaddons -nochromium -console +connect cinema.swampservers.net:27015 >/dev/null & 
+#exec /usr/bin/steam -silent -no-browser -applaunch 4000 -windowed -safe -noaddons -nochromium -console +connect cinema.swampservers.net:27015 >/dev/null & 
+exec /usr/bin/steam -silent -applaunch 4000 -windowed -w 1600 -h 900 -noborder -console +connect cinema.swampservers.net:27015 >/dev/null & 
 done
