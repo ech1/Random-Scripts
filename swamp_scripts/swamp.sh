@@ -1,6 +1,8 @@
 #!/bin/bash
 # RUN IT LIKE THAT :
-# wget https://raw.githubusercontent.com/ech1/Random-Scripts/master/swamp_scripts/swamp.sh -O - | bash
+# wget https://raw.githubusercontent.com/ech1/Random-Scripts/master/swamp_scripts/swamp.sh 
+# chmod +x swamp.sh
+# ./swamp.sh
 
 gpid=$(pidof gmod)
 echo pid of gmod: $gpid
