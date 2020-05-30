@@ -26,7 +26,7 @@ do
         ramtotal=$(free | grep Mem | awk '{print $3/$2 * 100.0}')
         echo "-total ram: $ramtotal"
 
-        udp=$(sudo timeout 30 tcpdump host 208.103.169.51 2>/dev/null | wc -l)
+        udp=$(sudo timeout 30 tcpdump host 208.103.169.51 -i enp0s31f6 2>/dev/null | wc -l)
         echo "-number of udp packets: $udp"
 
         ###########################UDP
@@ -60,16 +60,16 @@ if [[ $? -eq 0 ]]; then
 
         case "$choice" in
         "0")
-                exec /usr/bin/steam -silent -no-browser -applaunch 4000 +connect cinema.swampservers.net:27015 -windowed -safe -noaddons -nochromium -console >/dev/null &
+                exec /usr/bin/steam -offline -silent -no-browser -applaunch 4000 +connect cinema.swampservers.net:27015 -windowed -safe -noborder -noaddons -nochromium -console >/dev/null &
                 ;;
         "1")
-                exec /usr/bin/steam -silent -no-browser -applaunch 4000 +connect cinema.swampservers.net:27015 -windowed -w 1600 -h 900 -noaddons -nochromium -console >/dev/null &
+                exec /usr/bin/steam -silent -no-browser -applaunch 4000 +connect cinema.swampservers.net:27015 -windowed -w 1600 -h 900 -noborder -noaddons -nochromium -console >/dev/null &
                 ;;
         "2")
                 exec /usr/bin/steam -silent -applaunch 4000 +connect cinema.swampservers.net:27015 -windowed -w 1600 -h 900 -noborder -console >/dev/null &
                 ;;
         "3")
-                exec /usr/bin/steam -silent -applaunch 4000 +connect cinema.swampservers.net:27015 -full -console >/dev/null &
+                exec /usr/bin/steam -silent -applaunch 4000 +connect cinema.swampservers.net:27015 -windowed -noborder -w 1920 -h 1080 -console >/dev/null &
                 ;;
         *)
                 exit 1
@@ -80,4 +80,5 @@ else
 fi
 sleep 15
 done
+
 
