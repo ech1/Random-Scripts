@@ -27,7 +27,7 @@ do
         echo "-total ram: $ramtotal"
 
 	sudo timeout 1 tcpdump
-        udp=$(sudo timeout 30 tcpdump -i enp0s31f6 host 208.103.169.51 2>/dev/null | wc -l)
+        udp=$(sudo timeout 30 tcpdump host 208.103.169.51 2>/dev/null | wc -l)
         echo "-number of udp packets: $udp"
 
         ###########################UDP
