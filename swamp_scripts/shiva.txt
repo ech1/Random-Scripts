@@ -1,0 +1,48 @@
+ age 2
+ body_type 1
+ bodydetail1 9
+ bodydetail1_c 0.050980 0.745098 1.000000
+ bodydetail2 19
+ bodydetail2_c 0.211765 0.211765 0.211765
+ bodydetail3 5
+ bodydetail3_c 0.000000 0.000000 0.000000
+ bodydetail4 14
+ bodydetail4_c 0.000000 0.000000 0.000000
+ bodydetail5 1
+ bodydetail5_c 0.000000 0.000000 0.000000
+ bodydetail6 6
+ bodydetail6_c 0.000000 0.000000 0.000000
+ bodydetail7 1
+ bodydetail7_c 0.000000 0.000000 0.000000
+ bodydetail8 1
+ bodydetail8_c 0.000000 0.000000 0.000000
+ bodyt0 1
+ bodyt1_color 0.640101 0.743922 0.988593
+ bodyweight 1.0774157678539
+ cmark 22
+ cmark_enabled 2
+ coatcolor 0.000000 0.000000 0.000000
+ eye 8
+ eyecolor_bg 1.000000 1.000000 1.000000
+ eyecolor_grad 0.090211 0.295868 0.334063
+ eyecolor_hole 0.000000 0.000000 0.000000
+ eyecolor_iris 0.270634 0.887603 1.002189
+ eyecolor_line1 0.243571 0.798843 0.901970
+ eyecolor_line2 0.216507 0.710083 0.801752
+ eyehaslines 1
+ eyeholesize 0.74044287721392
+ eyeirissize 0.61458527731071
+ eyejholerssize 1
+ eyelash 5
+ gender 2
+ haircolor1 0.000000 0.000000 0.000000
+ haircolor2 0.184314 0.184314 0.184314
+ haircolor3 0.358352 0.288485 0.322548
+ haircolor4 0.415354 0.445061 0.260974
+ haircolor5 0.016470 0.220057 0.036539
+ haircolor6 0.660312 0.187693 0.919343
+ kind 1
+ mane 2
+ manel 5
+ tail 5
+ tailsize 0.92881410387684
