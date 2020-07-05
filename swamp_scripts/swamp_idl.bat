@@ -6,12 +6,6 @@ Echo "Swamp Cinema Automation Script"
 GOTO :A
 
 :A
-TASKLIST | FINDSTR /I "steam.exe"
-IF ERRORLEVEL 1 (GOTO :StartSteam) ELSE (ECHO Steam is currently running)
-timeout 60
-GOTO :B
-
-:B
 TASKLIST | FINDSTR /I "gmod.exe"
 IF ERRORLEVEL 1 (GOTO :StartSwamp) ELSE (ECHO Swamp Cinema is currently running)
 timeout 60
