@@ -2,11 +2,11 @@
 # RUN IT LIKE THAT :
 # wget https://raw.githubusercontent.com/ech1/Random-Scripts/master/swamp_scripts/swamp.sh -O - | bash
 
+# Version 0.4.1 
+
 gpid=$(pidof gmod)
+gpid=$(pidof steam)
 echo pid of gmod: $gpid
-whoami
-sudo whoami
-whoami
 
 echo '0) Idle (minimalistic)'
 echo '1) Idle (online)'
@@ -40,10 +40,16 @@ do
                 echo "---YES enough udps!"
         fi
 
+        if [ "$udp" -lt 10 ] 2>/dev/null
+        then
+                echo '---Killing Gmod !'
+        else
+
         ##########################RAM
 
         ramtotal=$(ps -p $(pidof gmod) -o vsize | grep -v VSZ)
         ramusage=$(echo $ramtotal'>'8000000 | bc -l)
+
         if [ "$ramusage" -eq 1 ] 2>/dev/null
         then
                 echo '---NO TOO MUCH RAM USED !'
@@ -51,6 +57,7 @@ do
                 kill -9 $(pidof steam)
         else
                 echo "---YES ram usage is $ramtotal !"
+        fi
         fi
 done
 
