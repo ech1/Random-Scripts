@@ -43,6 +43,7 @@ do
                 echo "---YES enough udps!"
                 limiter=$(pidof cpulimit | wc -l)
                 if [ "$limiter" -lt 1 ] 2>/dev/null
+                then
                         exec /usr/bin/cpulimit -p $(pidof gmod) -l 5
                 fi
         fi
