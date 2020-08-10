@@ -2,7 +2,8 @@
 # RUN IT LIKE THAT :
 # wget https://raw.githubusercontent.com/ech1/Random-Scripts/master/swamp_scripts/swamp.sh -O - | bash
 
-# Version 0.4.1 
+# Version 0.4.2
+# YOU NEED TO INSTALL : cpulimit tcpdump
 
 gpid=$(pidof gmod)
 gpid=$(pidof steam)
