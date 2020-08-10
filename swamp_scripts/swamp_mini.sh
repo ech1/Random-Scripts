@@ -41,6 +41,10 @@ do
                 kill -9 $(pidof cpulimit)
         else
                 echo "---YES enough udps!"
+                limiter=$(pidof cpulimit | wc -l)
+                if [ "$limiter" -lt 1 ] 2>/dev/null
+                        exec /usr/bin/cpulimit -p $(pidof gmod) -l 5
+                fi
         fi
 
         if [ "$udp" -lt 10 ] 2>/dev/null
@@ -61,7 +65,6 @@ do
                 kill -9 $(pidof cpulimit)
         else
                 echo "---YES ram usage is $ramtotal !"
-                exec /usr/bin/timeout 3600 cpulimit -p $(pidof gmod) -l 5
         fi
         fi
 done
