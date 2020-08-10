@@ -61,6 +61,7 @@ do
                 kill -9 $(pidof cpulimit)
         else
                 echo "---YES ram usage is $ramtotal !"
+                exec /usr/bin/timeout 3600 cpulimit -p $(pidof gmod) -l 5
         fi
         fi
 done
