@@ -9,9 +9,9 @@ gpid=$(pidof steam)
 echo pid of gmod: $gpid
 
 echo '0) Idle (minimalistic)'
-echo '1) Idle (online)'
-echo '2) active (borderless)'
-echo '3) active (full)'
+#echo '1) Idle (online)'
+#echo '2) active (borderless)'
+#echo '3) active (full)'
 #read choice
 choice="0"
 
