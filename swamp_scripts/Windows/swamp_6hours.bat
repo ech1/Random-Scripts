@@ -2,6 +2,7 @@
 
 
 Echo "Swamp Cinema Automation Script"
+Echo "If it's under 6 hours consider it anti afking"
 GOTO :A
 
 :A
