@@ -2,6 +2,8 @@
 Apprentissage
 chercher un fichier dans un dossier
 
+---------------------------------------------------------------------#>
+
 
 $cherche = $args[0]
 $dossier = $args[1]
@@ -13,6 +15,8 @@ Get-ChildItem -Path $dossier -Recurse -ErrorAction SilentlyContinue  |
 <#-------------------------------------------------------------------
 Apprentissage PowerShell - Script n° 2
 Auteur BD – 17/12/2013
+
+---------------------------------------------------------------------#>
 
 $dossier = $args[0]
 echo "calcul en cours sur $dossier"
@@ -29,6 +33,8 @@ ForEach-Object {
 Apprentissage PowerShell - Script n° 3
 Auteur BD – 18/12/2013
 
+---------------------------------------------------------------------#>
+
 while ($couleur -ne 'stop') {
 $invite = "saisissez une couleur :"
 $couleur = Read-Host $invite 
@@ -44,6 +50,8 @@ else {
 }
 <#-------------------------------------------------------------------
 EXERCICE 1
+
+---------------------------------------------------------------------#>
 
 ipcsv ".\t02-fichier.csv" -Delimiter ";" | foreach { 
 	switch ($_.pro)
