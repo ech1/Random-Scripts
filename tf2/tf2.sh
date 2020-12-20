@@ -33,9 +33,8 @@ case $choice in
 		;;
 esac
 
+echo 'Press ENTER to exit '
+read something
 
-#/usr/bin/steam -silent -no-browser -applaunch 440 -windowed -w 2560 -h 1440 +sv_allow_point_servercommand always +map workshop/606778917 -noborder -console +viewmodel_fov 130 >/dev/null 2>/dev/null &
+kill -9 $(pidof steam)
 
-#/usr/bin/steam -silent -no-browser -applaunch 440 -windowed -w 2560 -h 1440 +sv_allow_point_servercommand always +map jump_mireal -noborder -console +viewmodel_fov 130 >/dev/null 2>/dev/null &
-
-#/usr/bin/steam -silent -no-browser -applaunch 440 -windowed -w 2560 -h 1440 +connect -noborder -console +viewmodel_fov 130 >/dev/null 2>/dev/null &
