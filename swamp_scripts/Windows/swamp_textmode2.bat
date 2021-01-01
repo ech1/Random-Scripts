@@ -8,7 +8,7 @@ GOTO :A
 :A
 set /A COUNTER=COUNTER+1
 echo time is %COUNTER% limit is 1440
-IF %COUNTER% gtr 10 (GOTO :killer)
+IF %COUNTER% gtr 1440 (GOTO :killer)
 TASKLIST | FINDSTR /I "gmod.exe"
 IF ERRORLEVEL 1 (GOTO :StartSwamp) ELSE (ECHO SC is already running)
 timeout 60
