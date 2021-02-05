@@ -1,0 +1,101 @@
+
+ age 2
+ body_type 1
+ bodydetail1 18
+ bodydetail1_c 0.239216 0.137255 0.160784
+ bodydetail2 19
+ bodydetail2_c 0.117647 0.066667 0.078431
+ bodydetail3 9
+ bodydetail3_c 0.960784 0.913725 0.549020
+ bodydetail4 1
+ bodydetail4_c 1.000000 0.000000 0.000000
+ bodydetail5 1
+ bodydetail5_c 1.000000 0.000000 0.000000
+ bodydetail6 1
+ bodydetail6_c 0.000000 0.000000 0.000000
+ bodydetail7 1
+ bodydetail7_c 0.000000 0.000000 0.000000
+ bodydetail8 1
+ bodydetail8_c 0.000000 0.000000 0.000000
+ bodyt0 1
+ bodyt1_color 0.723609 0.592403 0.419175
+ bodyweight 0.82628486879756
+ clothes s 1_3_5_7_47
+ cmark 7
+ cmark_enabled 2
+ coatcolor 0.117647 0.066667 0.078431
+ coatphongboost 0.6
+ coatphongexponent 0.5
+ eye 9
+ eye_effect_alpha 1
+ eye_effect_alpha_r 1
+ eye_effect_color 1.000000 1.000000 1.000000
+ eye_effect_color_r 1.000000 1.000000 1.000000
+ eye_reflect_alpha 1
+ eye_reflect_alpha_r 1
+ eye_reflect_color 1.000000 1.000000 1.000000
+ eye_reflect_color_r 1.000000 1.000000 1.000000
+ eye_reflect_type 1
+ eye_reflect_type_r 1
+ eye_type 1
+ eye_type_r 1
+ eyecolor_bg 1.000000 1.000000 1.000000
+ eyecolor_bg_r 1.000000 1.000000 1.000000
+ eyecolor_grad 0.556863 0.341176 0.392157
+ eyecolor_grad_r 0.568627 0.301961 0.000000
+ eyecolor_hole 0.000000 0.000000 0.000000
+ eyecolor_hole_r 0.000000 0.000000 0.000000
+ eyecolor_iris 0.556863 0.341176 0.392157
+ eyecolor_iris_r 0.847059 0.592157 0.000000
+ eyecolor_line1 1.000000 1.000000 1.000000
+ eyecolor_line1_r 1.000000 1.000000 1.000000
+ eyecolor_line2 0.000000 0.000000 0.000000
+ eyecolor_line2_r 1.000000 1.000000 1.000000
+ eyehaslines 2
+ eyehaslines_r 1
+ eyeholesize 0.90789473684211
+ eyeholesize_r 0.7
+ eyeirissize 0.46842105263158
+ eyeirissize_r 0.7
+ eyejholerssize 0.31929824561404
+ eyejholerssize_r 1
+ eyelash 5
+ gender 1
+ haircolor1 0.117647 0.066667 0.078431
+ haircolor2 0.239216 0.137255 0.160784
+ haircolor3 1.000000 0.266667 0.000000
+ haircolor4 0.854902 0.356863 0.000000
+ haircolor5 0.000000 0.000000 0.000000
+ haircolor6 0.000000 0.000000 0.000000
+ hairphongboost 1
+ hairphongexponent 6
+ hairsize 1
+ horncolor 0.000000 0.000000 0.000000
+ hornphongboost 0.1
+ hornphongexponent 0.1
+ imgurcmark s https://i.imgur.com/EaJ5mGA.png
+ kind 1
+ mane 4
+ manecolor1 0.282353 0.000000 0.000000
+ manecolor2 0.149020 0.000000 0.000000
+ manecolor3 0.000000 0.000000 0.000000
+ manecolor4 0.000000 0.000000 0.000000
+ manecolor5 0.000000 0.000000 0.000000
+ manecolor6 0.000000 0.000000 0.000000
+ manel 13
+ manephongboost 1
+ manephongexponent 6
+ manesize 1
+ tail 5
+ tailcolor1 0.282353 0.000000 0.000000
+ tailcolor2 0.149020 0.000000 0.000000
+ tailcolor3 0.000000 0.000000 0.000000
+ tailcolor4 0.000000 0.000000 0.000000
+ tailcolor5 0.000000 0.000000 0.000000
+ tailcolor6 0.000000 0.000000 0.000000
+ tailphongboost 0.5
+ tailphongexponent 6
+ tailsize 0.99900118302053
+ wingcolor 0.000000 0.000000 0.000000
+ wingphongboost 0.05
+ wingphongexponent 6
