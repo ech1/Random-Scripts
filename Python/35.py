@@ -17,4 +17,4 @@ a = ListList( [ [1,1,1], [0,1,1], [1,5,1] ] )
 print(10 in a) # false
 print( 5 in a) # true
 del ListList.__contains__
-print( 5 in a) # Still true !
+print( 5 in a) # Still true !!
