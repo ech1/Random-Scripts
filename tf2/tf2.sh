@@ -26,3 +26,13 @@ case $choice in
                 ;;
 esac
 
+#temple map
+#] mp_teams_unbalance_limit 32
+#] mp_disable_respawn_times 1
+#] tf_bot_add 30 soldier blue
+
+#
+#
+#
+#
+
