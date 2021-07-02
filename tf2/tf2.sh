@@ -4,6 +4,7 @@
 echo '[+] TF2 script'
 echo '[+] 1) tr_walkway_rc2             (RED)'
 echo '[+] 2) airborne   (BLU)'
+echo '[+] 2) groundstand   (BLU)'
 read choice
 
 case $choice in
